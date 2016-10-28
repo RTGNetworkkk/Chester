@@ -1,0 +1,19 @@
+name: Chester
+main: Chester\Main
+version: "1.0.0"
+author: RTG
+api: [1.0.0, 2.0.0]
+load: STARTUP
+commands:
+ c:
+  permission: chester.command
+  description: Main command
+  usage: /c <add|remove|reload|reset>
+permissions:
+ chester.*:
+  default: op
+  description: Main permission
+  children:
+   chester.command.*:
+    default: op
+    description: use commands
