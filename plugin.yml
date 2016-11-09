@@ -2,7 +2,7 @@ name: Chester
 main: Chester\Main
 version: "1.0.0"
 author: RTG
-api: [1.0.0, 2.0.0]
+api: [1.0.0, 2.0.0, 2.1.0]
 load: STARTUP
 commands:
  c:
