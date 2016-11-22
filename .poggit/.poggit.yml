@@ -1,0 +1,7 @@
+---
+branches: master
+projects:
+  Chester:
+    path: ""
+    model: default
+...
